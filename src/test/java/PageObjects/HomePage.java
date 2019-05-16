@@ -11,7 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 /***
  * This Class will store all the objects in gift rete homepage
  */
-public class HomePage  {
+public class HomePage {
 
 
     public HomePage(WebDriver driver)
