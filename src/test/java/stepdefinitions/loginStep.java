@@ -1,4 +1,4 @@
-package stepdefinitions;
+/*package stepdefinitions;
 
 import PageObjects.HomePage;
 import Utilities.Baseclass;
@@ -9,9 +9,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class stepdefinitions  {
+public class loginStep {
 
-    WebDriver driver;
+    private  WebDriver driver;
 
 
     @Given("^I navigate to giftrate dev site$")
@@ -31,7 +31,7 @@ public class stepdefinitions  {
     public void i_enter_the_username() throws Throwable {
         HomePage homePage = new HomePage(driver);
         homePage.typeUsername();
-
+       // \"(.*)"\ - code for passing data without example keyword in scenario outline
     }
 
     @When("^I enter the password$")
@@ -53,7 +53,7 @@ public class stepdefinitions  {
     {
         HomePage homePage = new HomePage(driver);
        homePage.LogInName();
-       driver.close();
+       driver.quit();
 
     }
 
@@ -69,5 +69,5 @@ public class stepdefinitions  {
         String URL = "https://www.boots.com";
         driver.get(URL);
         Thread.sleep(2000);
-    }
-}
+   }
+}*/
